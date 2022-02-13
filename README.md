@@ -25,7 +25,7 @@ To modify, just go to main and change the inputs or create your own doc with a m
 ```python 
 import ImageDatasetBuilder
 bob = ImageDatasetBuilder()
-bob.set_target('./img.png', pgw_file_path_if_any='img.pgw) 
+bob.set_target('./img.png', pgw_file_path_if_any='img.pgw') 
 # multiple files and folders can be targeted at once.
 # if a matching pgw file is present, coordinates will be calculated.
 bob.set_target_folder('./DK_imgs/', contains_pgw_files=True)
