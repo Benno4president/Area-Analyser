@@ -25,8 +25,16 @@ To modify, just go to main and change the inputs or create your own doc with a m
 ```python 
 import ImageDatasetBuilder
 bob = ImageDatasetBuilder()
-bob.set_target('./input/')
-bob.build()
+bob.set_target('./img.png', pgw_file_path_if_any='img.pgw) 
+# multiple files and folders can be targeted at once.
+# if a matching pgw file is present, coordinates will be calculated.
+bob.set_target_folder('./DK_imgs/', contains_pgw_files=True)
+# optionally, save all split images to a folder. 
+bob.build(output_split_images_to='./output/')
+# multiple options for saving
+bob.print_result()
+bob.save_result_as_json()
+bob.save_result_as_txt(save_path='./', save_file_name='have_a_nice_day.txt')
 ```
 
 
