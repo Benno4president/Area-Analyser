@@ -10,8 +10,6 @@ If the folder contains .pgw files with the same name as a .png file, it can be r
 The info is stored as a python dictionary, so data outputs are easy to create. pre-made options is the images with the info in the name, as .json and as .txt 
 
 
-All complaints must be sent to cnorsp19@student.aau.dk
-
 **Installation**
 
 lol just setup python virtual environment *(or don't)*

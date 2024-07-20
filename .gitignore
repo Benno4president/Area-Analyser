@@ -1,7 +1,8 @@
 # custom
 DK_imgs/
 ./DK_imgs/
-
+.idea
+.vscode
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
